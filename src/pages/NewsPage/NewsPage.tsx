@@ -41,11 +41,11 @@ const NewsPage = () => {
       }
     }
     loadNews()
-  }, [])
+  }, [id])
 
   useEffect(() => {
     if (news) {
-      document.title = `Kenzie Feed - ${news.title}`
+      document.title = `${news.title}`
     }
   }, [news])
 

@@ -22,6 +22,10 @@ const AllNewsPage = () => {
     }
   }, [])
 
+  useEffect(() => {
+    document.title = `News Hub - Todas as notícias`
+  }, [])
+
   return (
     <>
       {loading ? (

@@ -22,7 +22,7 @@ const HomePage = () => {
   }, [])
 
   useEffect(() => {
-    document.title = `Kenzie Feed - Homepage`
+    document.title = `News Hub - Homepage`
   }, [])
 
   return (

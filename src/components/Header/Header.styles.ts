@@ -21,6 +21,10 @@ export const StyledHeader = styled.header`
   padding-right: clamp(0.5rem, 3vw, 1rem);
   max-width: 76.875rem;
 
+  .logo {
+    width: 150px;
+  }
+
   .right-container {
     display: flex;
     align-items: center;

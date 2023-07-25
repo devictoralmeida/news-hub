@@ -34,7 +34,7 @@ const DashboardPage = () => {
 
   useEffect(() => {
     if (user) {
-      document.title = `Kenzie Feed - Dashboard - ${user.name}`
+      document.title = `News Hub - ${user.name}`
     }
   }, [])
 

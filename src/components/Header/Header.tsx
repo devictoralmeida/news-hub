@@ -1,5 +1,5 @@
 import { StyledHeader, StyledHeaderContainer } from './Header.styles'
-import Logo from '../../assets/Logo.svg'
+import Logo from '../../assets/news-hub.png'
 import Logout from '../../assets/LogoutIcon.svg'
 import { StyledButton } from '../../styles/button'
 import { useUserContext } from '../../hooks/useUserContext'
@@ -15,14 +15,14 @@ const Header = () => {
       <StyledHeader>
         {!user ? (
           <>
-            <img src={Logo} alt="Kenzie Feed Logo" />
+            <img src={Logo} className="logo" alt="News Hub Logo" />
             <StyledButton ButtonSize="small" ButtonStyle="solid">
               <Link to="/login">Acessar</Link>
             </StyledButton>
           </>
         ) : (
           <>
-            <img src={Logo} alt="Kenzie Feed Logo" />
+            <img src={Logo} className="logo" alt="News Hub Logo" />
             <div className="right-container">
               <div className="user-first-letter">{user.name[0]}</div>
               <StyledButton

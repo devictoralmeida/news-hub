@@ -8,7 +8,7 @@ import { useEffect } from 'react'
 
 const LoginPage = () => {
   useEffect(() => {
-    document.title = `Kenzie Feed - Login`
+    document.title = `News Hub - Login`
   }, [])
 
   return (

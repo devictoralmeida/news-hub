@@ -67,7 +67,7 @@ const EditNewsPage = () => {
   }, [id, postId])
 
   useEffect(() => {
-    document.title = `Kenzie Feed - Editar Notícia`
+    document.title = `News Hub - Editar Notícia`
   }, [])
 
   const {

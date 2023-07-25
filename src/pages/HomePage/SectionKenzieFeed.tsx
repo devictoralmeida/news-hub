@@ -6,9 +6,9 @@ const SectionKenzieFeed = () => {
   return (
     <>
       <StyledCardList>
-        <StyledParagraph fontSize="small">KENZIE FEED</StyledParagraph>
+        <StyledParagraph fontSize="small">NEWS HUB</StyledParagraph>
         <StyledHeadline1 fontSize="big">
-          Seja muito bem vindo ao KenzieFeed
+          Seja muito bem vindo ao News Hub
         </StyledHeadline1>
         <StyledParagraph>Fique por dentro das últimas notícias</StyledParagraph>
         <img src={HomeImage} alt="imagem teclado" />

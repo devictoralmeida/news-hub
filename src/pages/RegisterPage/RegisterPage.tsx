@@ -11,7 +11,7 @@ import { useEffect } from 'react'
 
 const RegisterPage = () => {
   useEffect(() => {
-    document.title = `Kenzie Feed - Cadastre-se`
+    document.title = `News Hub - Cadastre-se`
   }, [])
 
   return (
